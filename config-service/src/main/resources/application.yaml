@@ -5,7 +5,7 @@ spring:
      config:
        server:
           git:
-            default-label: gateway
+            default-label: zipkin-sleuth
             uri: https://github.com/EdisonGarofalo1/Microservicios-Spring-boot-y-Spring-Cloud
             search-paths: config-data  
   application:
