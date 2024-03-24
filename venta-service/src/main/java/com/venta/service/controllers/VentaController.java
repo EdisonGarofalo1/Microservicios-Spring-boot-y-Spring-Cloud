@@ -23,7 +23,7 @@ import com.venta.service.services.VentaService;
 
 
 @RestController
-@RequestMapping("/api/ventas")
+@RequestMapping("/api/venta")
 public class VentaController {
 	
 	   @Autowired
