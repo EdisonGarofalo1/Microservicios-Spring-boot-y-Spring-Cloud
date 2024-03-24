@@ -14,7 +14,8 @@ import com.venta.service.models.dto.ClienteDto;
 
 
 
-@FeignClient(name = "cliente-service",url = "http://localhost:8182")
+//@FeignClient(name = "cliente-service",url = "http://localhost:8182")
+@FeignClient(name = "cliente-service")
 @RequestMapping("/api/cliente")
 public interface ClienteFeignClient {
 	

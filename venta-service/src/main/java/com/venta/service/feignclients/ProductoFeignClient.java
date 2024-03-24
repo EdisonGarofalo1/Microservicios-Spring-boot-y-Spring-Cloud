@@ -12,7 +12,7 @@ import com.venta.service.models.dto.ProductoDto;
 
 
 
-@FeignClient(name = "producto-service",url = "http://localhost:8183")
+@FeignClient(name = "producto-service")
 @RequestMapping("/api/producto")
 public interface ProductoFeignClient {
 	

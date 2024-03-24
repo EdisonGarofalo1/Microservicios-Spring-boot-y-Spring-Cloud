@@ -31,4 +31,4 @@ spring:
         - id: venta-service
           uri: lb://venta-service
           predicates:
-            - Path=/api/venta"/**
+            - Path=/api/venta/**
